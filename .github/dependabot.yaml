@@ -1,0 +1,17 @@
+version: 2
+
+updates:
+  - package-ecosystem: "gihub-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    commit-message:
+      prefix: "Chores:"
+
+  - package-ecosystem: "gomod"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    commit-message:
+      prefix: "Chores:"
+      
