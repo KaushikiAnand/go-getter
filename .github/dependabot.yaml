@@ -1,7 +1,7 @@
 version: 2
 
 updates:
-  - package-ecosystem: "gihub-actions"
+  - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "weekly"
@@ -14,4 +14,3 @@ updates:
       interval: "weekly"
     commit-message:
       prefix: "Chores:"
-      
